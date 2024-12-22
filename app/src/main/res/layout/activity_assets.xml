@@ -1,0 +1,97 @@
+<!-- res/layout/activity_assets.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 닉네임 자산 제목 -->
+
+    <!-- 보유 자산 텍스트 -->
+
+    <TextView
+        android:id="@+id/assetTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp"
+        android:text="닉네임 님의 자산"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- 수익률 텍스트 -->
+
+    <TextView
+        android:id="@+id/assetsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="보유 자산: 0.00USD"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/returnTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총 수익률: 0%"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/investTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="투자 자산: 0.00USD"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/investReturnTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="투자 수익률: 0%"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="투자한 종목 목록"
+        android:textColor="#0D0D0D"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stockRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:backgroundTint="#ECECF0"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/stockInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주식 알아보기" />
+
+    <Button
+        android:id="@+id/rankingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="순위 알아보기" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그아웃" />
+</LinearLayout>

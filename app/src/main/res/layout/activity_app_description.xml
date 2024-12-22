@@ -1,0 +1,22 @@
+<!-- res/layout/activity_app_description.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/appDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이 앱은 주식 시뮬레이션 게임입니다. 기본 자산 10000달러로 시작하고 가상 주식에 투자해 돈을 벌며 다른 사람과 경쟁하는 시스템입니다."
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/startSimulationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시뮬레이션 시작!"
+        android:textSize="18sp"/>
+</LinearLayout>
