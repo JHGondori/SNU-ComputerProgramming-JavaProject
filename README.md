@@ -40,8 +40,7 @@ com.example.stocksimulation
 ├── activity        // UI screens like login, assets, search, stock details
 ├── adapter         // RecyclerView adapters (portfolio & rankings)
 ├── model           // Data models (User, Stock, API responses)
-├── network         // Retrofit setup and API interface
-└── theme/ui        // UI designs
+└── network         // Retrofit setup and API interface 
 ```
 
 ## 🛠 Challenges & Solutions
